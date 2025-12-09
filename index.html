@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxy Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Proxy Game</h1>
+        <div class="game-info">
+            <div class="score">Score: <span id="score">0</span></div>
+            <div class="level">Level: <span id="level">1</span></div>
+            <div class="lives">Lives: <span id="lives">3</span></div>
+        </div>
+        
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        
+        <div class="controls">
+            <p>Use Arrow Keys to move | Space to shoot | P to pause</p>
+        </div>
+        
+        <div id="gameOver" class="modal hidden">
+            <div class="modal-content">
+                <h2>Game Over!</h2>
+                <p>Final Score: <span id="finalScore">0</span></p>
+                <button onclick="location.reload()">Play Again</button>
+            </div>
+        </div>
+        
+        <div id="pauseScreen" class="modal hidden">
+            <div class="modal-content">
+                <h2>Game Paused</h2>
+                <button onclick="game.resume()">Resume</button>
+                <button onclick="location.reload()">Main Menu</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
