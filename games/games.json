@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Space Shooter",
+    "description": "The original Proxy Game - a simple canvas shooter.",
+    "path": "index.html",
+    "icon": "🚀",
+    "category": "Arcade",
+    "tags": ["shooter","space","arcade"]
+  },
+  {
+    "title": "Blaster Arena",
+    "description": "Fast-paced action demo — shoot waves of enemies (placeholder page links to demo).",
+    "path": "games/action-blaster.html",
+    "icon": "🔫",
+    "category": "Action",
+    "tags": ["action","shooter","arena"]
+  },
+  {
+    "title": "Runner Rush",
+    "description": "Side-scrolling action runner (placeholder page).",
+    "path": "games/action-runner.html",
+    "icon": "🏃",
+    "category": "Action",
+    "tags": ["action","runner","platform"]
+  }
+  ,
+  {
+    "title": "Petezah Games",
+    "description": "Visit PetezahGames for more browser arcade titles.",
+    "path": "https://petezahgames.com",
+    "icon": "🌐",
+    "thumbnail": "games/petezah-thumb.svg",
+    "category": "External",
+    "tags": ["external","portal"]
+  }
+]
+

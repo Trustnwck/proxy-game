@@ -12,6 +12,21 @@ A fast-paced, browser-based space shooter game built with vanilla JavaScript, HT
 - **Particle Effects**: Explosions and visual feedback for destroyed enemies
 - **Responsive Design**: Works on desktop and tablet devices
 
+````markdown
+# Proxy Game
+
+A fast-paced, browser-based space shooter game built with vanilla JavaScript, HTML5 Canvas, and CSS.
+
+## Features
+
+- **Dynamic Gameplay**: Dodge incoming enemies and shoot them down
+- **Progressive Difficulty**: Game gets harder as your score increases
+- **Lives System**: Start with 3 lives, lose them by colliding with enemies
+- **Score & Level Tracking**: Track your progress with real-time scoring
+- **Pause Feature**: Press 'P' to pause and resume the game
+- **Particle Effects**: Explosions and visual feedback for destroyed enemies
+- **Responsive Design**: Works on desktop and tablet devices
+
 ## How to Play
 
 1. Open `index.html` in your web browser
@@ -39,11 +54,19 @@ A fast-paced, browser-based space shooter game built with vanilla JavaScript, HT
 ## File Structure
 
 ```
-├── index.html      # Game HTML structure
+├── index.html      # Game HTML structure (plays the canvas game)
+├── games.html      # Games gallery (browse multiple games)
+├── games/          # Games manifest and related assets
+│   └── games.json  # Games manifest used by `games.html`
 ├── styles.css      # Game styling and layout
 ├── game.js         # Game logic and mechanics
 └── README.md       # This file
 ```
+
+## Games Gallery
+
+- Open `games.html` to view a small gallery that loads `games/games.json`.
+- Use the search input and category filter to find games; click "Play" to open the game's `path` (for the included demo the path is `index.html`).
 
 ## Technical Details
 
@@ -72,3 +95,5 @@ Contributions are welcome! Feel free to fork this project and submit pull reques
 ---
 
 **Enjoy the game and happy coding!** 🚀
+
+````
